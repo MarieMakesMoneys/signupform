@@ -1,1 +1,82 @@
+:root {
+    font-family: sans-serif;
+    font-size: 24px;
+}
 
+* {
+    padding: 0px;
+    margin: 0px;   
+}
+
+@font-face {
+    font-family: title-font;
+    src: url(./assets/DMSerifDisplay-Regular.ttf);
+}
+
+body {
+    display: flex;
+}
+
+
+.left {
+    margin: 0px 0px;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("./assets/tony-litvyak-T2PbLfyDEKw-unsplash.jpg");
+    background-color: rgba(1, 44, 3, 0.815);
+    background-size: cover;
+    color: antiquewhite;
+}
+
+.title {
+    width: 100%;
+    font-family: title-font, sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+    padding: 36px auto;
+    background-color: rgba(29,45,35,.6);
+}
+
+img {
+    max-width: 50px;
+    padding: 4px 16px;
+}
+
+.credits {
+    font-size: .9rem;
+}
+
+.credits :link, .credits :visited {
+    color: antiquewhite;
+}
+
+
+.right {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: rgb(29,45,35);
+}
+
+.intro {
+    padding-right: 80px;
+}
+
+/* form styling goes here */
+
+.outro {
+    font-size: .9rem;
+}
+
+.outro :link, .outro :visited {
+    color: rgb(29,45,35);
+}
