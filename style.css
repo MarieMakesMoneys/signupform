@@ -60,7 +60,6 @@ img {
 
 
 .right {
-    padding: 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -68,15 +67,84 @@ img {
 }
 
 .intro {
-    padding-right: 80px;
+    padding: 24px;
+    padding-right: 40px;
+    font-size: 1.3rem;
 }
 
-/* form styling goes here */
+form {
+    padding: 8px 24px;
+    box-shadow:5px 5px 10px 2px rgba(38, 53, 44, .6);
+}
+
+.form {
+    line-height: 3rem;
+}
+
+.field {
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+legend {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+label {
+    font-size: .8rem;
+    letter-spacing: .3rem;
+    color: rgb(38, 53, 44);
+    height: 2rem;
+    padding-left: .7rem;
+}
+
+input {
+    color: rgb(38, 53, 44);
+    font-size: 1rem;
+    padding: .5rem;
+    border: solid 2px rgb(38, 53, 44);
+    border-radius: 1rem;
+    height: 1rem;
+}
+
+input:focus {
+    box-shadow: 2px 2px inset rgb(112, 131, 120);
+}
+
+input:valid {
+    border-color: rgb(67, 151, 100);
+}
+
+input:invalid {
+    border-color: rgb(175, 13, 13);
+}
+
+button {
+    border-radius: 1rem;
+    background-color: rgb(29,45,35);
+    color: antiquewhite;
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin: 1rem auto;
+    padding: .4rem;
+    box-shadow: 2px 2px rgb(38, 53, 44);
+    border: rgb(38, 53, 44);
+}
+
+.button :hover, .button :focus {
+    background-color: antiquewhite;
+    color: rgb(29,45,35);
+    box-shadow: 2px 2px rgb(38, 53, 44);
+    border: rgb(38, 53, 44);
+}
 
 .outro {
+    padding: 24px;
     font-size: .9rem;
 }
 
 .outro :link, .outro :visited {
-    color: rgb(29,45,35);
+    color: rgb(17, 29, 21);
 }
