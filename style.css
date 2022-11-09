@@ -1,6 +1,6 @@
 :root {
     font-family: sans-serif;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 * {
@@ -13,14 +13,14 @@
     src: url(./assets/DMSerifDisplay-Regular.ttf);
 }
 
-body {
+.main {
     display: flex;
 }
 
 
 .left {
     margin: 0px 0px;
-    height: 100vh;
+    height: 96vh;
     width: 50vw;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 100px 0px;
+    margin: 100px 1rem;
     padding: 36px auto;
     background-color: rgba(29,45,35,.6);
 }
@@ -138,6 +138,7 @@ button {
     color: rgb(29,45,35);
     box-shadow: 2px 2px rgb(38, 53, 44);
     border: rgb(38, 53, 44);
+    cursor: pointer;
 }
 
 .outro {
@@ -147,4 +148,15 @@ button {
 
 .outro :link, .outro :visited {
     color: rgb(17, 29, 21);
+}
+
+footer {
+    background-color: rgb(29,45,35);
+    color: antiquewhite;
+    text-align: center;
+    padding: .7rem;
+}
+
+footer :link, footer :visited {
+    color: antiquewhite;
 }
